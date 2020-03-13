@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Menu</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--main stylesheet-->
+    <link rel="stylesheet" type="text/css" href="css/style_script.css">
+</head>
+
+<body>
+    <header>
+        <a href="#default" class="logo"><img src="logos/nav_logo.png" width="250" height="250"></a>
+        <nav>
+            <ul>
+                <li><a class="link" href="index.html">HOME</a></li>
+                <li><a class="link" href="AboutUs.html">ABOUT US</a></li>
+                <li><a class="link active" href="Menu.html">MENU</a></li>
+                <li><a class="link" href="Reservation.html">RESERVATION</a></li>
+                <li><a class="link" href="Gallery.html">GALLERY</a></li>
+                <li><a class="link" href="ContactUs.html">CONTACT US</a></li>
+                <li>
+                    <a class="link" id="shopping_cart" href="ShoppingCart.html"><img src="logos/cart-logo.png" width="45px" height="35px"></a>
+                    <span id="itemCount">0</span>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="banner">
+        <h1>Menu</h1>
+        <a href="#">Home / Menu</a>
+    </section>
+
+    <section id="menu_section" class="container">
+        <h1 class="container_header">The kind of food we serve to you</h1>
+        <p class="container_subtext">Choose izishebo zasekhaya</p>
+
+        <!--Food Categories-->
+        <nav id="menu_categories">
+            <a class="active" onclick="toggleClass(this)" href="#menu_section">All</a>
+            <a onclick="toggleClass(this)" href="#menu_section">Breakfast</a>
+            <a onclick="toggleClass(this)" href="#menu_section">Lunch</a>
+            <a onclick="toggleClass(this)" href="#menu_section">Supper</a>
+            <a onclick="toggleClass(this)" href="#menu_section">Budget Meal</a>
+            <a onclick="toggleClass(this)" href="#menu_section">Dessert</a>
+        </nav>
+
+
+        <!--Food Items-->
+        <div id="breakfast" class="row">
+
+            <div class="col_30">
+                <div class="col_30_product_card">
+                    <img src="images/Menu/Breakfast/Chai and Mandazi.jpg" class="col_30_product_card_image" alt="Chai and Mandazi">
+                    <div class="col_30_product_card_info">
+                        <p class="col_30_product_card_name">Chai and Mandazi</p>
+                        <p class="col_30_product_card_descrip">Mandazi (East African Doughnuts) - a spicy, airy yeast doughnut dough made with coconut milk, flavored with cardamom and grated fresh coconut or coconut flakes. Best served with chai for breakfast</p>
+                    </div>
+                    <p class="col_30_product_card_price">R28,00</p>
+                    <p><button class="col_30_product_card_btn">Add to Cart</button></p>
+                </div>
+            </div>
+
+            <div class="col_30">
+                <div class="col_30_product_card">
+                    <img src="images/Menu/Breakfast/Pap and Akara.jpg" class="col_30_product_card_image" alt="Pap and Akara">
+                    <div class="col_30_product_card_info">
+                        <p class="col_30_product_card_name">Pap and Akara</p>
+                        <p class="col_30_product_card_descrip">AKARA, also known also fried bean cakes are mouth-watering snacks. This snack can be eaten at any time of day with pap (fermented corn starch), bread and cornstarch (agidi or eko).</p>
+                    </div>
+                    <p class="col_30_product_card_price">R45,00</p>
+                    <p><button class="col_30_product_card_btn">Add to Cart</button></p>
+                </div>
+            </div>
+
+            <div class="col_30">
+                <div class="col_30_product_card">
+                    <img src="images/Menu/Breakfast/Yam and Egg Stew.jpg" class="col_30_product_card_image" alt="Yam and Egg Stew">
+                    <div class="col_30_product_card_info">
+                        <p class="col_30_product_card_name">Yam and Egg Stew</p>
+                        <p class="col_30_product_card_descrip">Egg stew is the best and simplest sauce for boiled yam or rice, it is prepared with eggs, diced tomatoes, peppers and onion and very easy to fix for breakfast.</p>
+                    </div>
+                    <p class="col_30_product_card_price">R43,41</p>
+                    <p><button class="col_30_product_card_btn">Add to Cart</button></p>
+                </div>
+            </div>
+
+        </div>
+
+        <div id="lunch" class="row">
+
+            <div class="col_30">
+                <div class="col_30_product_card">
+                    <img src="images/Menu/Lunch/Beef and Bean Bunny Chow.jpg" class="col_30_product_card_image" alt="Beef and Bunny Chow">
+
+                    <div class="col_30_product_card_info">
+                        <p class="col_30_product_card_name">Beef and Bunny Chow</p>
+                        <p class="col_30_product_card_descrip">Bunny chow is a hollowed-out quarter, half or full loaf of bread filled with any available curry including vegetarian and beef.</p>
+                    </div>
+                    <p class="col_30_product_card_price">R70,00</p>
+                    <p><button class="col_30_product_card_btn">Add to Cart</button></p>
+                </div>
+            </div>
+
+            <div class="col_30">
+                <div class="col_30_product_card">
+                    <img src="images/Menu/Lunch/Boerewors Meal.jpg" class="col_30_product_card_image" alt="Chuck Boerewors Meal">
+
+                    <div class="col_30_product_card_info">
+                        <p class="col_30_product_card_name">Boerewors Meal</p>
+                        <p class="col_30_product_card_descrip">Grilled Juicy boerewors served with a bowl of Pap with Spicy Chakalaka.</p>
+                    </div>
+
+                    <p class="col_30_product_card_price">R50,00</p>
+                    <p><button class="col_30_product_card_btn">Add to Cart</button></p>
+                </div>
+            </div>
+
+            <div class="col_30">
+                <div class="col_30_product_card">
+                    <img src="images/Menu/Lunch/Curried Lamb Potjie.jpg" class="col_30_product_card_image" alt="Curried Lamb Potjie">
+
+                    <div class="col_30_product_card_info">
+                        <p class="col_30_product_card_name">Curried Lamb Potjie</p>
+                        <p class="col_30_product_card_descrip">This is a mild and fragrant Cape curry made with boneless lamb cubes.</p>
+                    </div>
+                    <p class="col_30_product_card_price">R75,00</p>
+                    <p><button class="col_30_product_card_btn">Add to Cart</button></p>
+                </div>
+            </div>
+
+        </div>
+
+        <div id="supper" class="row">
+
+            <div class="col_30">
+                <div class="col_30_product_card">
+                    <img src="images/Menu/Supper/Chakalaka Beef Stew.jpg" class="col_30_product_card_image" alt="Chakalaka Beef Stew">
+
+                    <div class="col_30_product_card_info">
+                        <p class="col_30_product_card_name">Chakalaka Beef Stew</p>
+                        <p class="col_30_product_card_descrip">Soft Hot Spicy Beef Stew mixed with chakalaka.</p>
+                    </div>
+                    <p class="col_30_product_card_price">R68,00</p>
+                    <p><button class="col_30_product_card_btn">Add to Cart</button></p>
+                </div>
+            </div>
+
+            <div class="col_30">
+                <div class="col_30_product_card">
+                    <img src="images/Menu/Supper/One Pot Boerewors Spaghetti.jpg" class="col_30_product_card_image" alt="One Pot Boerewors Spaghetti">
+
+                    <div class="col_30_product_card_info">
+                        <p class="col_30_product_card_name">One Pot Boerewors Spaghetti</p>
+                        <p class="col_30_product_card_descrip">Spaghetti served with short pieces of boerwors with tomato gravy.</p>
+                    </div>
+                    <p class="col_30_product_card_price">R48,00</p>
+                    <p><button class="col_30_product_card_btn">Add to Cart</button></p>
+                </div>
+            </div>
+
+            <div class="col_30">
+                <div class="col_30_product_card">
+                    <img src="images/Menu/Supper/Ostrich Meatballs In Tomato Sauce.jpg" class="col_30_product_card_image" alt="Ostrich Meatballs In Tomato Sauce">
+
+                    <div class="col_30_product_card_info">
+                        <p class="col_30_product_card_name">Ostrich Meatballs In Tomato Sauce</p>
+                        <p class="col_30_product_card_descrip">Baked ostrich meatballs with tomato sauce, turnip and spaghetti.
+                        </p>
+                        </p>
+                    </div>
+
+                    <p class="col_30_product_card_price">R60,00</p>
+                    <p><button class="col_30_product_card_btn">Add to Cart</button></p>
+                </div>
+            </div>
+
+        </div>
+
+        <div id="budget_meal" class="row">
+
+            <div class="col_30">
+                <div class="col_30_product_card">
+                    <img src="images/Menu/Budget Meal/Boerewors Cassoulete.jpg" class="col_30_product_card_image" alt="Boerewors Cassoulete">
+
+                    <div class="col_30_product_card_info">
+                        <p class="col_30_product_card_name">Boerewors Cassoulete</p>
+                        <p class="col_30_product_card_descrip">Cooked Boerewors pieces with steamed vegetables such as broccoli, cauliflower and Carrots.</p>
+                    </div>
+
+                    <p class="col_30_product_card_price">R50,00</p>
+                    <p><button class="col_30_product_card_btn">Add to Cart</button></p>
+                </div>
+            </div>
+
+            <div class="col_30">
+                <div class="col_30_product_card">
+                    <img src="images/Menu/Budget Meal/Chicken And Spinach Pasta.jpg" class="col_30_product_card_image" alt="Chicken And Spinach Pasta">
+
+                    <div class="col_30_product_card_info">
+                        <p class="col_30_product_card_name">Chicken And Spinach Pasta</p>
+                        <p class="col_30_product_card_descrip">This delicious, creamy chicken pasta dish is made with spinach and garlic Alfredo sauce, tender rotisserie chicken.</p>
+                    </div>
+
+                    <p class="col_30_product_card_price">R62,00</p>
+                    <p><button class="col_30_product_card_btn">Add to Cart</button></p>
+                </div>
+            </div>
+
+            <div class="col_30">
+                <div class="col_30_product_card">
+                    <img src="images/Menu/Budget Meal/Hearty Lentil Stew.jpg" class="col_30_product_card_image" alt="Hearty Lentil Stew">
+
+                    <div class="col_30_product_card_info">
+                        <p class="col_30_product_card_name">Hearty Lentil Stew</p>
+                        <p class="col_30_product_card_descrip">This Warm delicious stew meal is made with lentils, potatoes and beans spiced with hot curry.</p>
+                    </div>
+
+                    <p class="col_30_product_card_price">R64,00</p>
+                    <p><button class="col_30_product_card_btn">Add to Cart</button></p>
+                </div>
+            </div>
+
+        </div>
+
+        <div id="dessert" class="row">
+
+            <div class="col_30">
+                <div class="col_30_product_card">
+                    <img src="images/Menu/Dessert/Decadant Potbrood.jpg" class="col_30_product_card_image" alt="Decadant Potbrood">
+                    <div class="col_30_product_card_info">
+                        <p class="col_30_product_card_name">Decadant Potbrood</p>
+                        <p class="col_30_product_card_descrip">Potbrood baked over the braai coals, served with sweet jam or chocolate spread.</p>
+                    </div>
+
+                    <p class="col_30_product_card_price">R40,00</p>
+                    <p><button class="col_30_product_card_btn">Add to Cart</button></p>
+                </div>
+            </div>
+
+            <div class="col_30">
+                <div class="col_30_product_card">
+                    <img src="images/Menu/Dessert/Dessert Vetkoek.jpg" class="col_30_product_card_image" alt="Dessert Vetkoek">
+
+                    <div class="col_30_product_card_info">
+                        <p class="col_30_product_card_name">Dessert Vetkoek</p>
+                        <p class="col_30_product_card_descrip">Vetkoek with Chocolate-Orange Dipping Sauce.</p>
+                    </div>
+
+                    <p class="col_30_product_card_price">R25,00</p>
+                    <p><button class="col_30_product_card_btn">Add to Cart</button></p>
+                </div>
+            </div>
+
+            <div class="col_30">
+                <div class="col_30_product_card">
+                    <img src="images/Menu/Dessert/Fruit Filled Cremora Tart.jpg" class="col_30_product_card_image" alt="Fruit Filled Cremora Tart">
+
+                    <div class="col_30_product_card_info">
+                        <p class="col_30_product_card_name">Fruit Filled Cremora Tart</p>
+                        <p class="col_30_product_card_descrip">Its a Milk Tart made with cremora powder which has fruits covered fresh tennis biscuits.</p>
+                    </div>
+
+                    <p class="col_30_product_card_price">R45,00</p>
+                    <p><button class="col_30_product_card_btn">Add to Cart</button></p>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <footer>
+        &copy;Copyright 7COLORS 2018. All rights reserved | This website was made by Student of CJC<br><br>
+
+        <div class="social_links">
+            <a href=""><img src="logos/facebook_logo.png" width="50" height="40"></a>
+            <a href=""><img src="logos/googleplus_logo.png" width="50" height="43"></a>
+            <a href=""><img src="logos/twitter_logo.png" width="40" height="40"></a>
+            <a href=""><img src="logos/instagram_logo.png" width="40" height="40"></a>
+
+        </div>
+    </footer>
+
+    <!--Javascript file-->
+    <script src="Javascript/ShoppingCart.js" type="text/javascript"></script>
+    <script src="Javascript/main_script.js" type="text/javascript"></script>
+
+</body>
+
+</html>

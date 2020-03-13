@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Checkout</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--main stylesheet-->
+    <link rel="stylesheet" type="text/css" href="css/style_script.css">
+</head>
+
+<body>
+    <header>
+        <a href="#default" class="logo"><img src="logos/nav_logo.png" width="250" height="250"></a>
+        <nav>
+            <ul>
+                <li><a onclick="this.className.add('active')" class="link" href="index.html">HOME</a></li>
+                <li><a class="link" href="AboutUs.html">ABOUT US</a></li>
+                <li><a class="link" href="Menu.html">MENU</a></li>
+                <li><a class="link" href="Reservation.html">RESERVATION</a></li>
+                <li><a class="link" href="Gallery.html">GALLERY</a></li>
+                <li><a class="link" href="ContactUs.html">CONTACT US</a></li>
+                <li>
+                    <a class="link" id="shopping_cart" href="ShoppingCart.html"><img src="logos/cart-logo.png" width="45px" height="35px"></a>
+                    <span id="itemCount">0</span>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="banner">
+        <h1>Checkout</h1>
+        <a href="#">Home / Shopping / Checkout</a>
+    </section>
+
+    <section class="container">
+        <div class="row">
+
+            <div class="col_30">
+                <h2 class="col_30_header">Your Items</h2>
+
+                <div class="item_card_small">
+                    <img class="item_card_small_image" src="images/Menu/Breakfast/Chai And Mandazi.jpg" width="100" height="100" alt="">
+                    <div class="item_card_small_info">
+                        <p class="item_card_small_name">Chai And Mandazi</p>
+                        <p class="item_card_small_descrip">Mandazi, or African doughnut is a sweet, fried dough common to Tanzania and Kenya. They are wonderful with powdered sugar, syrup or a dipping sauce of your choice. Mandazi is often served with Chai.</p>
+                    </div>
+                    <p class="item_card_small_price">R28,00</p>
+
+                </div>
+
+                <div class="item_card_small">
+                    <img class="item_card_small_image" src="images/Menu/Breakfast/Pap And Akara.jpg" width="100" height="100" alt="">
+                    <div class="item_card_small_info">
+                        <p class="item_card_small_name">Pap And Akara</p>
+                        <p class="item_card_small_descrip">AKARA, also known also fried bean cakes are mouth-watering snacks. This snack can be eaten at any time of day with pap (fermented corn starch), bread and cornstarch (agidi or eko).</p>
+                    </div>
+                    <p class="item_card_small_price">R45,00</p>
+
+                </div>
+
+                <div class="item_card_small">
+                    <img class="item_card_small_image" src="images/Menu/Breakfast/Yam And Egg Stew.jpg" width="100" height="100" alt="">
+                    <div class="item_card_small_info">
+                        <p class="item_card_small_name">Yam And Egg Stew</p>
+                        <p class="item_card_small_descrip">Egg stew is the best and simplest sauce for boiled yam or rice, it is prepared with eggs, diced tomatoes, peppers and onion and very easy to fix for breakfast.</p>
+                    </div>
+                    <p class="item_card_small_price">R43,41</p>
+
+                </div>
+
+                <div class="item_card_small">
+                    <img class="item_card_small_image" src="images/Menu/Lunch/Beef and Bean Bunny Chow.jpg" width="100" height="100" alt="">
+                    <div class="item_card_small_info">
+                        <p class="item_card_small_name">Beef and Bean Bunny Chow</p>
+                        <p class="item_card_small_descrip">Bunny chow is a hollowed-out quarter, half or full loaf of bread filled with any available curry including vegetarian and beef.</p>
+                    </div>
+                    <p class="item_card_small_price">R70,00</p>
+
+                </div>
+
+                <div class="item_card_small">
+                    <img class="item_card_small_image" src="images/Menu/Lunch/Boerewors Meal.jpg" width="100" height="100" alt="">
+                    <div class="item_card_small_info">
+                        <p class="item_card_small_name">Boerewors Meal</p>
+                        <p class="item_card_small_descrip">Grilled Juicy boerewors served with a bowl of Pap with Spicy Chakalaka.</p>
+                    </div>
+                    <p class="item_card_small_price">R50,00</p>
+                </div>
+
+                <div class="item_card_small">
+                    <img class="item_card_small_image" src="images/Menu/Lunch/Curried Lamb Potjie.jpg" width="100" height="100" alt="">
+                    <div class="item_card_small_info">
+                        <p class="item_card_small_name">Curried Lamb Potjie</p>
+                        <p class="item_card_small_descrip">This is a mild and fragrant Cape curry made with boneless lamb cubes.</p>
+                    </div>
+                    <p class="item_card_small_price">R75,00</p>
+                </div>
+
+                <div class="item_card_small">
+                    <img class="item_card_small_image" src="images/Menu/Supper/Chakalaka Beef Stew.jpg" width="100" height="100" alt="">
+                    <div class="item_card_small_info">
+                        <p class="item_card_small_name">Chakalaka Beef Stew</p>
+                        <p class="item_card_small_descrip">Soft Hot Spicy Beef Stew mixed with chakalaka.</p>
+                    </div>
+                    <p class="item_card_small_price">R68,00</p>
+                </div>
+
+                <div class="item_card_small">
+                    <img class="item_card_small_image" src="images/Menu/Supper/One Pot Boerewors Spaghetti.jpg" width="100" height="100" alt="">
+                    <div class="item_card_small_info">
+                        <p class="item_card_small_name">One Pot Boerewors Spaghetti</p>
+                        <p class="item_card_small_descrip">Spaghetti served with short pieces of boerewors with tomato gravy.</p>
+                    </div>
+                    <p class="item_card_small_price">R48,00</p>
+                </div>
+
+                <div class="item_card_small">
+                    <img class="item_card_small_image" src="images/Menu/Supper/Ostrich Meatballs In Tomato Sauce.jpg" width="100" height="100" alt="">
+                    <div class="item_card_small_info">
+                        <p class="item_card_small_name">Ostrich Meatballs In Tomato Sauce</p>
+                        <p class="item_card_small_descrip">Baked ostrich meatballs with tomato sauce, turnip and spaghetti.</p>
+                    </div>
+                    <p class="item_card_small_price">R75,00</p>
+                </div>
+
+                <div class="item_card_small">
+                    <img class="item_card_small_image" src="images/Menu/Budget Meal/Boerewors Cassoulete.jpg" width="100" height="100" alt="">
+                    <div class="item_card_small_info">
+                        <p class="item_card_small_name">Boerewors Cassolete</p>
+                        <p class="item_card_small_descrip">Cooked Boerewors pieces with steamed vegetables such as broccoli, cauliflower and Carrots.</p>
+                    </div>
+                    <p class="item_card_small_price">R50,00</p>
+                </div>
+
+                <div class="item_card_small">
+                    <img class="item_card_small_image" src="images/Menu/Budget Meal/Chicken And Spinach Pasta.jpg" width="100" height="100" alt="">
+                    <div class="item_card_small_info">
+                        <p class="item_card_small_name">Chicken And Spinach Pasta</p>
+                        <p class="item_card_small_descrip">This delicious, creamy chicken pasta dish is made with spinach and garlic Alfredo sauce, tender rotisserie chicken.</p>
+                    </div>
+                    <p class="item_card_small_price">R62,00</p>
+                </div>
+
+                <div class="item_card_small">
+                    <img class="item_card_small_image" src="images/Menu/Budget Meal/Hearty Lentil Stew.jpg" width="100" height="100" alt="">
+                    <div class="item_card_small_info">
+                        <p class="item_card_small_name">Hearty Lentil Stew</p>
+                        <p class="item_card_small_descrip">This Warm delicious stew meal is made with lentils, potatoes and beans spiced with hot curry.</p>
+                    </div>
+                    <p class="item_card_small_price">R64,00</p>
+                </div>
+
+                <div class="item_card_small">
+                    <img class="item_card_small_image" src="images/Menu/Dessert/Decadant Potbrood.jpg" width="100" height="100" alt="">
+                    <div class="item_card_small_info">
+                        <p class="item_card_small_name">Decadant Potbrood</p>
+                        <p class="item_card_small_descrip">Potbrood baked over the braai coals, served with sweet jam or chocolate spread.</p>
+                    </div>
+                    <p class="item_card_small_price">R40,00</p>
+                </div>
+
+                <div class="item_card_small">
+                    <img class="item_card_small_image" src="images/Menu/Dessert/Dessert Vetkoek.jpg" width="100" height="100" alt="">
+                    <div class="item_card_small_info">
+                        <p class="item_card_small_name">Dessert Vetkoek</p>
+                        <p class="item_card_small_descrip">Vetkoek with Chocolate-Orange Dipping Sauce.</p>
+                    </div>
+                    <p class="item_card_small_price">R25,00</p>
+                </div>
+
+                <div class="item_card_small">
+                    <img class="item_card_small_image" src="images/Menu/Dessert/Fruit Filled Cremora Tart.jpg" width="100" height="100" alt="">
+                    <div class="item_card_small_info">
+                        <p class="item_card_small_name">Fruit Filled Cremora Tart</p>
+                        <p class="item_card_small_descrip">Its a Milk Tart made with cremora powder which has fruits covered fresh tennis biscuits.</p>
+                    </div>
+                    <p class="item_card_small_price">R45,00</p>
+                </div>
+
+            </div>
+
+            <div id="col_70_checkout" class="col_70">
+                <p class="big_text bold">Total: R645</p>
+
+                <div id="card_option" class="payment_option">
+                    <label for="cardOption">
+                            <input type="radio" name="paymentOptions" id="cardOption">New Payment Card 
+                        </label>
+
+                    <div class="payment_methods">
+                        <img src="logos/visa.png" width="40px" length="40px" src="" alt="visa">
+                        <img src="logos/master.png" width="40px" length="40px" src="" alt="master">
+                        <img src="logos/discover_card.png" width="50px" length="50px" src="" alt="Dicover">
+                    </div>
+                </div>
+
+                <div id="card_payment" class="checkout">
+                    <form class="web_form" action="#" method="get">
+
+                        <div class="row">
+                            <input type="text" id="cardNumber" placeholder="Card Number" required>
+                        </div>
+
+                        <div class="row">
+                            <div class="col_50">
+                                <input type="date" id="date" required>
+                            </div>
+                            <div class="space"></div>
+                            <div class="col_50">
+                                <input type="text" id="securityCode" placeholder="Security Code" required>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <input type="text" id="cardName" placeholder="Name on Card" required>
+                        </div>
+
+
+                        <div class="row">
+                            <div class="col_50">
+                                <label for="country">Country</label>
+                                <br>
+                                <select id="country">
+                                    <option>South Africa</osption>
+                                </select>
+                            </div>
+                            <div class="space"></div>
+                            <div class="col_50">
+                                <input type="text" id="zipCode" placeholder="Zip/Postal Code">
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col_50">
+                                <label for="card">
+                                    <input type="checkbox" name="check" id="card">Remember this card
+                                </label>
+                            </div>
+                            <div class="col_50"></div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col_50">
+                                <input type="submit" value="Complete Payment" class="paymentCompleteBtn">
+                            </div>
+                            <div class="space"></div>
+                            <div class="col_50">
+                                <p>By Completing your purchase you agree to these Terms of Service</p>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col_50"></div>
+                            <div class="space"></div>
+                            <div id="secure_text" class="col_50">
+                                <img src="logos/lock.png" alt="Lock" width="40" height="40"> Secure Connection
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
+                <div class="payment_option">
+                    <label for="paypalOption">
+                        <input type="radio" name="paymentOptions" id="paypalOption">Pay Pal 
+                    </label>
+
+                    <div class="payment_methods">
+                        <img src="logos/paypal_method.png" width="40" height="40" alt="Paypal logo">
+                    </div>
+                </div>
+
+                <div id="paypal_payment" class="checkout">
+                    <form class="web_form" action="#" method="get">
+                        <div class="row">
+                            <div class="col_50">
+                                <label for="emailTextBox">Email:</label><br>
+                                <input placeholder="Enter your email" type="email" name="email" id="emailTextBox" required>
+                            </div>
+                            <div class="space"></div>
+                            <div class="col_50">
+                                <label for="passwordTextBox">Password:</label><br>
+                                <input placeholder="Enter your password" type="password" name="password" id="passwordTextBox">
+                            </div>
+                        </div>
+
+                        <div class="col_50">
+                            <input type="submit" value="Complete Payment" class="paymentCompleteBtn" required>
+                        </div>
+                    </form>
+
+
+                </div>
+
+                <a href="CheckoutPayment.html">Complete Payment</a>
+            </div>
+
+    </section>
+
+    <footer>
+        &copy;Copyright 7COLORS 2018. All rights reserved | This website was made by Student of CJC<br><br>
+
+        <div class="social_links">
+            <a href=""><img src="logos/facebook_logo.png" width="50" height="40"></a>
+            <a href=""><img src="logos/googleplus_logo.png" width="50" height="43"></a>
+            <a href=""><img src="logos/twitter_logo.png" width="40" height="40"></a>
+            <a href=""><img src="logos/instagram_logo.png" width="40" height="40"></a>
+
+        </div>
+    </footer>
+
+</body>
+
+</html>
